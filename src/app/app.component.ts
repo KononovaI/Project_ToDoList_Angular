@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { CategoriesComponent } from "./views/categories/categories.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, CategoriesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
